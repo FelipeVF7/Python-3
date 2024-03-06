@@ -1,0 +1,8 @@
+# Solicita ao usuário para inserir a temperatura em Celsius
+celsius = float(input("Digite a temperatura em Celsius: "))
+
+# Converte Celsius para Fahrenheit usando a fórmula
+fahrenheit = (celsius * 9/5) + 32
+
+# Imprime o resultado
+print(f"A temperatura em Fahrenheit é: {fahrenheit:.2f} °F")
